@@ -7,7 +7,7 @@
     "payment",
     "gateway"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Antony Ayansi (https://github.com/antonyayansi)",
     "email": "antonyayansi@proton.me"
@@ -34,8 +34,7 @@
   "peerDependencies": {
     "typescript": "^5.8.2"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/antonyayansi/niubiz.git"
