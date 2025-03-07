@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",  // Usamos módulos ES en lugar de CommonJS
+    "target": "ESNext",  // Utilizamos la última versión de ECMAScript
+    "moduleResolution": "node",  // Resuelve los módulos de la misma manera que Node.js
+    "esModuleInterop": true,  // Permite importar módulos CommonJS en un estilo ESM
+    "outDir": "./dist",  // El directorio de salida para los archivos compilados
+    "declaration": true,  // Genera archivos `.d.ts` para tus definiciones de tipos
+    "strict": true,  // Habilita las comprobaciones estrictas
+    "skipLibCheck": true,  // Omite la comprobación de tipos de las bibliotecas
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

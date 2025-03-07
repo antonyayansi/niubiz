@@ -1,0 +1,43 @@
+{
+  "name": "@dankira/niubiz",
+  "description": "A simple library for integrating with the niubiz API",
+  "keywords": [
+    "niubiz",
+    "api",
+    "payment",
+    "gateway"
+  ],
+  "version": "1.0.0",
+  "author": {
+    "name": "Antony Ayansi (https://github.com/antonyayansi)",
+    "email": "antonyayansi@proton.me"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "private": false,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonyayansi/niubiz.git"
+  }
+}
