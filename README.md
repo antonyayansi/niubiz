@@ -2,7 +2,7 @@
 
 Integra la pasarela de pagos de Niubiz de manera rápida y sencilla. Con este paquete, olvídate de configuraciones tediosas, problemas con CORS o la necesidad de intermediarios como proxies en tu frontend.
 
-[Documentación completa de este paquete 📗](https://niubiz-docs.vercel.app/)
+[Documentación completa de este paquete 📗](https://docs-niubiz.netlify.app/)
 
 ![Ejemplo de niubiz form](src/img/example_niubiz.png)
 
@@ -75,7 +75,7 @@ formatResponse(handleTransactionResponse);
 ### Vista
 ```html
 <div>
-    <button @click="setup()">Iniciar Pago</button>
+    <button onclick="setup()">Iniciar Pago</button>
     <form id="frmVisaNet" method="POST" action=""></form>
 </div>
 ```
