@@ -43,7 +43,7 @@ export const initial: initialConfig = {
     VISA_PROD_URL_SESSION: `https://apiprod.vnforapps.com/api.ecommerce/v2/ecommerce/token/session/`,
     VISA_PROD_URL_JS: 'https://static-content.vnforapps.com/v2/js/checkout.js',
     VISA_PROD_URL_AUTHORIZATION: `https://apiprod.vnforapps.com/api.authorization/v3/authorization/ecommerce/`,
-    proxy_url: 'http://dankira.laravel.cloud/api/capture_pay',
+    proxy_url: 'http://app.blocmin.com/api/capture_pay',
     logo: 'https://i.ibb.co/1JtQKJNk/logo-with.png',
     responseUrl: '/'
 }
