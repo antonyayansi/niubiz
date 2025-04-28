@@ -1,5 +1,9 @@
 # Niubiz - Pay Form JS
 
+> **⚠️ Importante**
+> 
+> Version estable: 2.0.0 ✅
+
 Integra la pasarela de pagos de Niubiz de manera rápida y sencilla. Con este paquete, olvídate de configuraciones tediosas, problemas con CORS o la necesidad de intermediarios como proxies en tu frontend.
 
 [Documentación completa de este paquete 📗](https://docs-niubiz.netlify.app/)
