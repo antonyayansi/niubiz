@@ -7,7 +7,7 @@
     "payment",
     "gateway"
   ],
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": {
     "name": "Antony Ayansi (https://github.com/antonyayansi)",
     "email": "antonyayansi@proton.me"
@@ -23,18 +23,23 @@
   },
   "private": false,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/bun": "latest",
+    "rollup": "^4.40.1"
   },
   "scripts": {
     "dev": "tsc -w",
-    "build": "tsc",
+    "build": "tsc && rollup -c",
     "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
     "typescript": "^5.8.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "tslib": "^2.8.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/antonyayansi/niubiz.git"
